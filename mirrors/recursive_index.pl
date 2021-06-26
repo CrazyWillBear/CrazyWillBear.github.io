@@ -148,7 +148,9 @@ sub usage {
     my $prog = basename($0);
     print STDERR <<EOF;
 This script generates directory index using HTML template.
+
 usage: $prog [-h] [-d root] [-r] [-p] [-t tmpl] [-i index] [-n] [-v]
+
  -h       : print this help message and exit.
  -d root  : root directory to parse.
  -p       : print link to parent in root directory.
@@ -157,6 +159,7 @@ usage: $prog [-h] [-d root] [-r] [-p] [-t tmpl] [-i index] [-n] [-v]
  -i index : name of the index file (default=$index_file).
  -n       : hide README files.
  -v       : show debug messages.
+
 README files are included in the page (HTML tags are not escaped).
 The format for .description files is "file: description".
 All files with names beginning with a dot are skipped.
