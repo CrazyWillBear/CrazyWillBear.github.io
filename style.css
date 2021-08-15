@@ -36,7 +36,8 @@ body {
 
 .list {
 	margin-left: auto;
-	width: 90%;
+  margin-right: auto;
+	width: 50%;
 	color: #86868B;
 }
 
@@ -46,8 +47,7 @@ body {
 
 .contacts {
 	color: #86868B;
-	margin-left: auto;
-	width: 55%;
+	text-align: center;
 }
 
 table, th, td {
@@ -69,4 +69,4 @@ h3 {
 
 a {
 	color: #1561f0
-}
+};
