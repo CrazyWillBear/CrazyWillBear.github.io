@@ -46,8 +46,8 @@ body {
   margin-right: auto;
 	width: 25%;
 	color: #86868B;
+  font-family: Trebuchet MS;
 }
-
 
 .center {
 	text-align: center;
@@ -78,3 +78,7 @@ h3 {
 a {
 	color: #1561f0
 };
+
+ul {
+	color: #86868B;
+}
