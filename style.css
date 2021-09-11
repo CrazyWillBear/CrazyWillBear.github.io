@@ -85,8 +85,12 @@ h3 {
 
 a {
 	color: #1561f0
-};
+}
 
 ul {
 	color: #86868B;
+}
+
+li {
+	color: white;
 }
