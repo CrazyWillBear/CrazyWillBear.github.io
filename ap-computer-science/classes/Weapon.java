@@ -14,6 +14,6 @@ public class Weapon extends Artifact {
   public double damage() { return damage; }
 
   public String toString() {
-    return super.name() + " (-" + damage + "hp)";
+    return super.toString() + ", (-" + damage + "hp)";
   }
 }
