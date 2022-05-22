@@ -30,7 +30,7 @@ public class Villain implements Character {
 
   public String toString() {
     return "Villan Stats:\n" +
-    "Health = " + health + "\n" +
+    "Health = " + health[0] + "/" + health[1] + "\n" +
     "Damage = " + weapon.damage() + "\n" +
     "Speed = " + speed + "\n" +
     "Is lootable? = " + lootable + "\n";

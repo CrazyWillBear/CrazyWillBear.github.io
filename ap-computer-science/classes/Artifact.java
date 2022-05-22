@@ -9,4 +9,5 @@ public class Artifact {
 
   public String name() { return name; }
   public double value() { return value; }
+  public String toString() { return name + ", ㊉" + value; }
 }
